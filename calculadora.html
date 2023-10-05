@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Minimos Cuadrados</title>
+  <link rel="stylesheet" href="../css/styles.css">
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+</style>
+</head>
+<body>
+  <div class="header-unam">
+      <img class="img-unam"src="../assets/UNAM-Logo.jpg" alt="Logo UNAM">
+      <img class="img-fi" src="../assets/Logo - FI.jpg" alt="Facultad de Ingenieria">
+    </div>
+    <h2 class="sub-2">Fundamentos de Física</h2>
+    <h1>Calculadora de Mínimos Cuadrados<h1>
+      <p class="calc-1">La<a href="index.html" target="_blank">Regresion de Mínimos Cuadrados</a>es una forma de encontrar la línea recta que mejor se ajuste a los datos.</p>
+      <p class="calc-2">La regresión lineal de los mínimos cuadrados (en inglés OLS: Ordinary Least Squares regression) es un método común para estimar los coeficientes de las ecuaciones de regresión lineal que describen la relación entre una (o varias) variables independientes cuantitativas y una variable dependiente. Las principales aportaciones de Gauss a la Estadística fueron en la teoría de la Estimación: el método de los mínimos cuadrados y como consecuencia el llamado modelo lineal de Gauss.</p>
+      <p class="calc-2">Ingresa tus datos separados por "coma" y encuentra la <b>ecuación de una recta</b> que se ajuste mejor a los datos.</p>
+      <div class="val-x">
+      <label for="x-values">Valores X: </label>
+      <input class="btn-1" type="text" id="x-values" />
+    </div>
+    <div class="val-x">
+      <label for="y-values">Valores Y: </label>
+      <input class="btn-1" type="text" id="y-values" />
+    </div>
+    <button class="calc" onclick="calculate()">Calcular</button>
+    <p id="equation"></p>
+    <canvas id="graph"></canvas>
+    <script src="../JavaScript/script.js"></script>
+     <footer>
+      <div class="name">
+        <h2>Equipo:</h2>
+        <p>Haziel Alejandro Mercado Macías</p>
+        <p>Areli Janette Peña Vilchis</p>
+        <p>Granados Garcia Ishtar Andrea</p>
+        <p>Juárez Castillo Romario Uriel</p>
+      </div>
+      <div>
+      <h2>Fundamentos de Fisica</h2>
+      <p class="name-p">Omar de Jesus Perez</p>
+      <p class="name-p"><i>Ciclo escolar:  </i>2024-1</p>
+      <img class="profe" src="../assets/Maestro.jpg" alt="Omar">
+      <img class="img-f" src="../assets/Logo - FI.jpg" alt="Facultad de Ingenieria">
+      </div>
+     </footer>
+</body>
+</body>
+</html>

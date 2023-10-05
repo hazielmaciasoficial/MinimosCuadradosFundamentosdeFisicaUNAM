@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regresión de Mínimos Cuadrados</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+</style>
+  <body>
+    <div class="header-unam">
+      <img class="img-unam"src="../assets/UNAM-Logo.jpg" alt="Logo UNAM">
+      <img class="img-fi" src="../assets/Logo - FI.jpg" alt="Facultad de Ingenieria">
+    </div>
+    <h2 class="sub-2">Fundamentos de Física</h2>
+    <h1>Regresión de Mínimos Cuadrados<h1>
+      <h2 class="sub-1">Recta de mejor ajuste (Recta de regresión)</h2>
+      <p class="t-1">Imagina que tienes algunos puntos y deseas tener una línea que se ajuste muy bien a ellos, de esta manera:</p>
+      <div class="reg-1">
+        <img class="img-r" src="../assets/scatter-ice-cream1a.webp" alt="Ejemplo de Regresión Minimos Cuadrados">
+      </div>
+      <p>Podemos colocar la línea "a ojo": trata de tener la línea lo más cerca posible de todos los puntos, y un número similar de puntos arriba y debajo de la línea.
+      </p>
+      <p>Pero para una mejor precisión, veamos cómo calcular la línea usando <b>
+        Regresión de Mínimos Cuadrados. </b></p>
+        <h2 class="sub-1">La Línea</h2>
+        <p>Nuestro objetivo es calcular los valores <b>m</b> (pendiente) y <b>b</b> (intersección en y) en la ecuación de la recta:</p>
+        <div class="formula">
+          <h3>y = mx + b</h3>
+        </div>
+        <p>Donde:</p>
+     <ul>
+      <li><b>y</b> = valor vertical</li>
+      <li><b>x</b> = valor horizontal</li>
+      <li><b>m</b> = Pendiente o Gradiente (qué tan inclinada es la recta)</li>
+      <li><b>b</b> = la Ordenada al origen (donde la recta cruza al eje y)</li>
+     </ul>
+     <h2>Pasos</h2>
+     <p>Para encontrar la recta de regresión para <b>N</b> puntos:</p>
+     <div class="pasos">
+      <ul>
+        <li><b>Paso 1:</b> Para cada punto (x, y) calcular x<sup>2</sup> y xy</li>
+        <li><b>Paso 2:</b> Sumar todas las x, y, x2 y xy, es decir, calcular Σx, Σy, Σx2 y Σxy</li>
+        <li><b>Paso 3:</b> Calcular la pendiente m:</li>
+        <p class="center"><b>m</b> = <span class="intbl"> <em>N Σ(xy) −
+              Σx Σy</em> <strong>N Σ(x<sup>2</sup>) − (Σx)<sup>2</sup></strong></span></p>
+          <li><b>Paso 4:</b> Calcular la ordenada al origen b:</li>
+          <p class="center larger"><b>b</b> = <span class="intbl"> <em>Σy − m Σx</em>
+            <strong>N</strong></span></p>
+            <li><b>Paso 5:</b> Ensamblar la ecuación de una recta</li>
+            <p class="center"><b>y = mx + b</b></p>
+      </ul>
+     </div>
+     <div class="button">
+       <a href="calculadora.html" target="_blank">Calculadora <br>de Minimos Cuadrados</a>
+     </div>
+     <footer>
+      <div class="name">
+        <h2>Equipo:</h2>
+        <p>Haziel Alejandro Mercado Macías</p>
+        <p>Areli Janette Peña Vilchis</p>
+        <p>Granados Garcia Ishtar Andrea</p>
+        <p>Juárez Castillo Romario Uriel</p>
+      </div>
+      <div>
+      <h2>Fundamentos de Fisica</h2>
+      <p class="name-p">Omar de Jesus Perez</p>
+      <p class="name-p"><i>Ciclo escolar:  </i>2024-1</p>
+      <img class="profe" src="../assets/Maestro.jpg" alt="Omar">
+      <img class="img-f" src="../assets/Logo - FI.jpg" alt="Facultad de Ingenieria">
+      </div>
+     </footer>
+  </body>
+</html>

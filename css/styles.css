@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+b {
+  color: #cf060a;
+}
+
+.intbl {
+  display: inline-table;
+  text-align: center;
+  vertical-align: 40%;
+  margin: 0 2px 0 2px;
+  border-collapse: collapse;
+}
+
+.intbl em {
+  display: table-row;
+  text-align: center;
+  border-bottom: solid black 1px;
+  font-size: 93%;
+  font-style: inherit;
+  line-height: 130%;
+}
+
+.intbl strong {
+  display: table-row;
+  text-align: center;
+  font-weight: inherit;
+  font-size: 93%;
+  line-height: 110%;
+}
+
+p,
+ul,
+li {
+  font-family: "PT Serif";
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: -2rem;
+  font-size: 2.9rem;
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  margin-top: 7rem;
+  font-size: 2rem;
+  font-family: "PT Serif";
+  color: #cf060a;
+  margin-left: 7rem;
+}
+
+.sub-1 {
+  margin-left: 7rem;
+  margin-top: 7rem;
+  font-size: 2rem;
+  font-family: "PT Serif";
+  color: #cf060a;
+}
+
+.img-unam {
+  margin-top: 1rem;
+  margin-left: -4rem;
+  width: 22rem;
+  height: 12rem;
+}
+
+.img-fi {
+  margin-top: -1rem;
+  width: 18rem;
+  height: 17rem;
+}
+
+.header-unam {
+  display: flex;
+  justify-content: space-between;
+}
+
+.t-1 {
+  margin-left: 7rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.sub-2 {
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #cf060a;
+  margin-left: 2rem;
+}
+
+.img-r {
+  margin-top: 2rem;
+}
+
+.reg-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.formula h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.formula {
+  margin: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 4rem;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.pasos b {
+  color: black;
+}
+
+.pasos {
+  margin: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 40rem;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+}
+
+.pasos li,
+ul {
+  margin: 0;
+}
+
+.pasos li {
+  padding: 1rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.formula,
+.pasos {
+  box-shadow: 10px 5px 5px #70696a;
+}
+
+.button {
+  margin-bottom: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  width: 14rem;
+  height: 6rem;
+  background-color: #cf060a;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Dela Gothic One", sans-serif;
+  text-align: center;
+  margin: 1rem;
+}
+
+.button:hover {
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+footer {
+  background-color: #141313;
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  color: white;
+}
+
+.name-p {
+  color: white;
+}
+
+.img-f {
+  width: 14rem;
+  height: 14rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.profe {
+  margin-top: -6rem;
+  margin-left: 40rem;
+}
+
+.calc-1 a {
+  color: #cf060a;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "PT Serif";
+}
+
+.calc-1 a:hover {
+  transition: 0.4s;
+  color: #70696a;
+}
+
+.calc-1 {
+  margin-top: 4rem;
+  text-align: start;
+  font-weight: 300;
+  margin-right: 12rem;
+}
+
+.calc-2 {
+  margin-top: 2rem;
+  text-align: start;
+  font-weight: 300;
+  margin-right: 12rem;
+}
+
+input,
+button {
+  display: block;
+  margin: 10px 0;
+}
+
+canvas {
+  width: 800px;
+  height: 700px;
+  background-color: white;
+}
+
+h1 {
+  color: black;
+}
+
+input,
+button {
+  display: block;
+  margin: 10px 0;
+}
+
+.val-x {
+  margin: 4rem auto 4rem 0;
+  color: black;
+}
+
+.btn-1 {
+  background-color: #eeb993;
+  border-radius: 1rem;
+  height: 4rem;
+  width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  color: #141313;
+  border: 0;
+}
+
+.calc {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "PT Serif";
+  background-color: #cf060a;
+  margin: 4rem auto 0 auto;
+  border: 0;
+  border-radius: 1rem;
+  height: 2.8rem;
+  width: 8rem;
+}
+
+.calc:hover {
+  background-color: #cf060983;
+  transition: 0.4s;
+  cursor: pointer;
+}
